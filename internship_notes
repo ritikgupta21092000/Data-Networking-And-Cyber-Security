@@ -1,0 +1,23 @@
+network --> Connection to one or more devices
+or
+when two or more communicating devices are connected to each other then a network is formed.
+VOIP --> Voice over Ip protocol
+HTTP --> Hyper text transfer protocol
+cluster of networks
+submarine cables
+intranet
+internet is nothing but two or more service providers are connected to each other all over the world
+VPN --> virtual private network
+safe privacy
+LAN ==> two or more communicating devices in a room, flooor, building, campus. Cost does'nt matter.
+MAN ==> two or more communicating devices connected to each other in same city. Cost does matter.
+WAN ==> two or more communicating devices connected to each other within different city. Cost does matter.
+
+OSI (Open system interconnection) reference model --> 7 layers
+Physical Layer
+Data Link Layer --> uses MAC Address(unique among all devices) 48 bits
+Network Layer --> uses IP Address 32 bits
+Transport Layer (TCP / UDP)
+
+Why do we require mac Address and IP Address in computer network ?
+List any 3 points you learn from that video ?
