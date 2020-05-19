@@ -21,3 +21,20 @@ Transport Layer (TCP / UDP)
 
 Why do we require mac Address and IP Address in computer network ?
 List any 3 points you learn from that video ?
+
+CSMACD --> Carrier sense multiple access collision detection
+
+Back of period
+
+Switch
+
+we use switch on layer 2 for Interlan communication
+
+we use router on layer 3 which uses IP Address
+
+IP Addresses are divided into 2 parts:
+Public Addresses and Private Addresses
+
+Private Addresses 10.0.0.0/2.255.255.555
+
+Private Addresses are reusable Addresses
