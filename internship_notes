@@ -42,3 +42,11 @@ Private Addresses are reusable Addresses
 Cisco Packet Tracer is a tool which is helping network engineer to trace the packet
 
 Mask is indicating number of bits on network side
+
+en
+sh r
+sh running-config
+configure terminal
+interface gigabitEthernet0/0
+ip address 192.168.0.1 255.255.255.0
+no shut
