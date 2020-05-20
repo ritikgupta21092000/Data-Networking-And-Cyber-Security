@@ -9,7 +9,7 @@ intranet
 internet is nothing but two or more service providers are connected to each other all over the world
 VPN --> virtual private network
 safe privacy
-LAN ==> two or more communicating devices in a room, flooor, building, campus. Cost does'nt matter.
+LAN ==> two or more communicating devices in a room, floor, building, campus. Cost does'nt matter.
 MAN ==> two or more communicating devices connected to each other in same city. Cost does matter.
 WAN ==> two or more communicating devices connected to each other within different city. Cost does matter.
 
@@ -40,3 +40,5 @@ Private Addresses 10.0.0.0/2.255.255.555
 Private Addresses are reusable Addresses
 
 Cisco Packet Tracer is a tool which is helping network engineer to trace the packet
+
+Mask is indicating number of bits on network side
