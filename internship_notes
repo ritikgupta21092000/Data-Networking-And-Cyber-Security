@@ -50,3 +50,32 @@ configure terminal
 interface gigabitEthernet0/0
 ip address 192.168.0.1 255.255.255.0
 no shut
+
+Four types of memeory in Router:
+Flash
+NV(Non volatile) ram  /  Startup Configuaration
+ram / running Configuaration
+rom
+
+IOS in cisco is present in Flash
+
+To save in NV ram we use right command and it is known as Startup Configuaration
+
+> user mode
+# privilge mode
+(config)# global Configuaration mode
+
+user mode and privilge mode are knows as monitoring mode
+
+IP Packet
+Source IP address is known as sender IP Address
+
+Routing Table
+
+Manually defining the destination is known as static Routing
+
+we can achieve dynamic routing with the help of routing protocols
+
+list down various routing protocol which are used in cn ?
+List down different netweork devices
+What are the different operating systems used by cisco and jennifer ?
