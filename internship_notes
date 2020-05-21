@@ -51,6 +51,9 @@ interface gigabitEthernet0/0
 ip address 192.168.0.1 255.255.255.0
 no shut
 
+show ip route
+do show ip route
+
 Four types of memeory in Router:
 Flash
 NV(Non volatile) ram  /  Startup Configuaration
