@@ -1,7 +1,7 @@
 network --> Connection to one or more devices
 or
 when two or more communicating devices are connected to each other then a network is formed.
-VOIP --> Voice over Ip protocol
+VOIP --> Voice over IP protocol
 HTTP --> Hyper text transfer protocol
 cluster of networks
 submarine cables
@@ -48,27 +48,27 @@ sh r
 sh running-config
 configure terminal
 interface gigabitEthernet0/0
-ip address 192.168.0.1 255.255.255.0
+IP address 192.168.0.1 255.255.255.0
 no shut
 
-show ip route
-do show ip route
+show IP route
+do show IP route
 
-Four types of memeory in Router:
+Four types of memory in Router:
 Flash
-NV(Non volatile) ram  /  Startup Configuaration
-ram / running Configuaration
+NV(Non volatile) ram  /  Startup configuration
+ram / running configuration
 rom
 
 IOS in cisco is present in Flash
 
-To save in NV ram we use right command and it is known as Startup Configuaration
+To save in NV ram we use right command and it is known as Startup configuration
 
 > user mode
-# privilge mode
-(config)# global Configuaration mode
+# privilege mode
+(config)# global configuration mode
 
-user mode and privilge mode are knows as monitoring mode
+user mode and privilege mode are knows as monitoring mode
 
 IP Packet
 Source IP address is known as sender IP Address
@@ -79,6 +79,6 @@ Manually defining the destination is known as static Routing
 
 we can achieve dynamic routing with the help of routing protocols
 
-list down various routing protocol which are used in cn ?
-List down different netweork devices
-What are the different operating systems used by cisco and jennifer ?
+list down various routing protocol which are used in computer network ?
+List down different network devices used by cisco and juniper ?
+What are the different operating systems used by cisco and juniper ?
