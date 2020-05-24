@@ -50,6 +50,8 @@ configure terminal
 interface gigabitEthernet0/0
 IP address 192.168.0.1 255.255.255.0
 no shut
+exit command is  used to go one step back
+do show ip route
 
 show IP route
 do show IP route
@@ -125,3 +127,23 @@ LSDB Link state database
 Routing Table
 
 Routing Table has only best path to reach that destination.
+
+
+In order to monitor on router use show keyword
+
+fe0/0
+first 0 --> slot
+second 0 --> port
+
+connection between a cisco hardware and computer we can use console port
+
+With the help of output queue we can find how much the downloading and uploading is going  on
+
+Router routes between the network
+Switch switches within the network
+
+different interface of your router should belong to different network
+
+It is always necessary for router to have forward and reverse path
+
+when you assign a ip address to router you can see C and L
