@@ -82,3 +82,46 @@ we can achieve dynamic routing with the help of routing protocols
 list down various routing protocol which are used in computer network ?
 List down different network devices used by cisco and juniper ?
 What are the different operating systems used by cisco and juniper ?
+
+Routing protocol uses routing Table
+
+Routing protocols are used to:
+To learn about all the networks
+To learn about all the paths to reach the network
+To select the best path to reach that network
+
+Interior gateway protocol (IGP) is used within the autonomous system
+Exterior gateway protocol (EGP) is used when two different autonomous system wants to connect with each other
+
+Border gateway protocol (BGP)
+
+Routing protocols are as follows:
+RIPv1 uses DVRP
+RIPv2 uses DVRP
+IGRP uses DVRP
+EIGRP uses ADVRP
+OSPS uses LSRP
+ISIS uses LSRP
+BGP uses DVRP
+
+Behaviours:
+Distance vector routing vector (DVRP)
+Link state Routing protocol (LSRP)
+
+Behaviours of Distance vector routing vector:
+Updates are periodic forwarded after 30/90 sec.
+Entire routing table is shared as a part of Updates
+Updates are shared to the directly connected network
+Since conversion is slow, black holes are formed.
+
+Behaviours of Link set Routing protocol:
+Triggered updates are shared to the connected networks
+* Updates are Triggered they are not periodic
+* Only new entry is shared
+* Multicast to a group
+Only the incremental change is shared to networks
+
+LSDB Link state database
+Routing Table
+
+Routing Table has only best path to reach that destination.
