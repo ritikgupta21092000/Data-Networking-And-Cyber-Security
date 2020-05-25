@@ -147,3 +147,24 @@ different interface of your router should belong to different network
 It is always necessary for router to have forward and reverse path
 
 when you assign a ip address to router you can see C and L
+
+Classfull addresses are addresses with default mask
+
+classless addresses are addresses with any other mask but not the default mask
+
+
+whenever something is not working in your network first check your ip address
+
+DHCP --> Dynamic host configuration protocol
+
+Ip address is assigned dynamically
+
+DHCP configuration:
+en
+conf t
+ip dhcp pool internship
+network netid subnetmask
+default-router
+ip dhcp excluded-address 192.168.40.2
+
+show ip dhcp pool
