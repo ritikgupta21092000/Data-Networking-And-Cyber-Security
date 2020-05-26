@@ -152,8 +152,9 @@ Classfull addresses are addresses with default mask
 
 classless addresses are addresses with any other mask but not the default mask
 
-
+Troubleshooting steps:
 whenever something is not working in your network first check your ip address
+go to your device and check the security concerns.
 
 DHCP --> Dynamic host configuration protocol
 
@@ -168,3 +169,23 @@ default-router
 ip dhcp excluded-address 192.168.40.2
 
 show ip dhcp pool
+
+ping works on ICMP protocol and one of it's function is to let the user know one of the destination is reacheable or not.
+
+Redundancy:
+
+Single Point Of Failure (SPOF)
+Fail Over
+The traffic from active router should fail over to backup router/redundant router/passive router
+
+Active to Back over --> Fail Over
+Back over to Active --> Fail Back
+
+Active to backup over routing protocol:
+Redundancy Protocol (HSRP) Hot Standby Routing Protocol
+
+In your HSRP configuration you make groups
+virtual/Standby IP Address
+
+In HSRP we configure virtual IP Address
+In HSRP we create a virtual default IP Address
