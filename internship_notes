@@ -189,3 +189,5 @@ virtual/Standby IP Address
 
 In HSRP we configure virtual IP Address
 In HSRP we create a virtual default IP Address
+
+Virtual IP Address should also be set in default gateway of PC
