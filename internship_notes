@@ -195,3 +195,13 @@ Virtual IP Address should also be set in default gateway of PC
 Track
 
 Access control list
+
+When we do the inversion of subnet mask is knows as Wildcard mask.
+
+Inbound interface are the interface
+
+Outbound interface is the interface post processing of the packets.
+
+Taking access on a router in such a way is known as Remote Access
+
+For accessing remotely we use TELNET protocol
